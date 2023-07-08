@@ -1,0 +1,52 @@
+body {
+    background-color: purple;
+    background-image: url("hair\ art.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+h1 {
+   font-family: "Lobster";
+   color: pink;
+   text-shadow: 2px 2px 5px black;
+   text-align: center;
+   font-size: 70px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: pink; 
+  }
+  
+  .navbar a {
+    float: left;
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .navbar a.right {
+    float: right; 
+  }
+  
+  .navbar a:hover {
+    background-color: purple;
+    color: black; 
+  }
+
+  .main {
+    color: pink;
+    font-size: 40px;
+    font-family: "lobster";
+    border: none;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    background-color: none;
+    
+  }

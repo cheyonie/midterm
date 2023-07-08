@@ -1,0 +1,47 @@
+body {
+    background-color: purple;
+    background-image: url("hair\ art.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+h1 {
+    font-family: "Lobster";
+    font-size: 70px;
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: pink;
+    background-color: purple;
+}
+
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold underline;
+    color: pink;
+    background-color: purple;
+
+
+}
+
+footer {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px pink;
+}
+
+button {
+    background-color: purple;
+    color: pink;
+    size: 40px;
+}

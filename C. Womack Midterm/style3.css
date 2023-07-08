@@ -1,0 +1,38 @@
+body {
+    background-color: purple;
+    background-image: url("hair\ art.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Lobster";
+    font-size: 70px;
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
